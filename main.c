@@ -66,7 +66,7 @@ double calculateSignal(double frequency, int t){
 			hps_tim0_int_flag = 0; //reset interrupt
 
 					//DISPLAY
-					/*int key = 0;
+					int key = 0;
 					for(key; key < 8; key++){
 						if(keysPressed[key]){
 							superSignal += (calculateSignal(frequencies[key], sampleCount));
@@ -81,7 +81,7 @@ double calculateSignal(double frequency, int t){
 					y[x] = 119 + (superSignal/maxSignal)*120; //center signal in y on screen
 					VGA_draw_point_ASM(x, y[x], (0xFFFFFF)); //draw point in white on screen
 					x++; //increment x to draw next point*/
-				//
+				
 
 			
 			//PLAY SOUND
